@@ -1,5 +1,5 @@
 @echo off
 title Malicious Updates Detected
 
-call warning.bat
+call warning.cmd
 exit

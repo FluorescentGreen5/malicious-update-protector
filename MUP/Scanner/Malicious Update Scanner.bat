@@ -13,5 +13,5 @@ call cleanup.cmd
 exit
 
 :detection
-	call warning.bat
+	call warning.cmd
 exit
