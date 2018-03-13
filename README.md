@@ -1,6 +1,6 @@
 # Malicious Update Protector
 
-V1 by FluorescentGreen5.
+V2 by FluorescentGreen5.
 
 ## About
 
@@ -9,6 +9,16 @@ This is like an anti-virus, but for unwanted Windows updates, especially telemet
 It is recommended that you install this along with Spybot Anti-Beacon and that you block things under "Optional" that you don't need (when you install Office, block everything related to it under here). Please read the "Windows 10 Privacy Advice" section if you plan on using Windows 10.
 
 If you would like to suggest any improvements to the code, here is my email address: fgreen5.extra@gmail.com
+
+## Changelog for This Version
+
+- Code Cleanup: Renamed "warning.bat" to "warning.cmd".
+- Added "Changelog" and "Download" sections to the readme.
+
+## Download
+
+Latest Version (V2): https://github.com/FluorescentGreen5/malicious-update-protector/releases/tag/V2
+All Versions: https://github.com/FluorescentGreen5/malicious-update-protector/releases
 
 ## Installation
 
