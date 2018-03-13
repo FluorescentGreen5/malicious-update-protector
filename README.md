@@ -18,6 +18,7 @@ If you would like to suggest any improvements to the code, here is my email addr
 ## Download
 
 Latest Version (V2): https://github.com/FluorescentGreen5/malicious-update-protector/releases/tag/V2
+
 All Versions: https://github.com/FluorescentGreen5/malicious-update-protector/releases
 
 ## Installation
