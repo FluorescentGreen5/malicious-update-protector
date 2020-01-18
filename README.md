@@ -20,7 +20,8 @@ If you would like to suggest any improvements to the code, here is my email addr
 
 ## Download
 
-Latest Version (V3): https://github.com/FluorescentGreen5/malicious-update-protector/releases/tag/V2
+Current Latest Version (V2): https://github.com/FluorescentGreen5/malicious-update-protector/releases/tag/V2
+Upcoming Version (V3): See Message at the Top
 
 All Versions: https://github.com/FluorescentGreen5/malicious-update-protector/releases
 
