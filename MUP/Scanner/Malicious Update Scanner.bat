@@ -13,5 +13,6 @@ call cleanup.cmd
 exit
 
 :detection
+	echo.
 	call warning.cmd
 exit
