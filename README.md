@@ -1,23 +1,26 @@
+**ATTENTION: MUP is in the middle of an update. V3 is currently not officially released. However, you can go ahead and install the repository files since those are for V3. The only thing that hasn't been fully updated is this entire description (README.md).**
+
 # Malicious Update Protector
 
-V2 by FluorescentGreen5.
+V3 by FluorescentGreen5.
 
 ## About
 
 This is like an anti-virus, but for unwanted Windows updates, especially telemetry ones.
 
-It is recommended that you install this along with Spybot Anti-Beacon and that you block things under "Optional" that you don't need (when you install Office, block everything related to it under here). Please read the "Windows 10 Privacy Advice" section if you plan on using Windows 10.
+It is recommended that you install this along with Spybot Anti-Beacon (maybe with version 1.6 for free Office telemetry blocking? Please get second opinions if you're planning on doing that) and that you block things under "Optional" (in the lastest version of Anti-Beacon things have a different layout so you might have to dig around) that you don't need (when you install Office, block everything related to it under here). Please read the "Windows 10 Privacy Advice" section if you plan on using Windows 10.
 
 If you would like to suggest any improvements to the code, here is my email address: fgreen5.extra@gmail.com
 
 ## Changelog for This Version
 
-- Code Cleanup: Renamed "warning.bat" to "warning.cmd".
-- Added "Changelog" and "Download" sections to the readme.
+- Added new malicious updates to the target list.
+- Improved text formatting.
+- Removed progress bar to make maintainence of code easier.
 
 ## Download
 
-Latest Version (V2): https://github.com/FluorescentGreen5/malicious-update-protector/releases/tag/V2
+Latest Version (V3): https://github.com/FluorescentGreen5/malicious-update-protector/releases/tag/V2
 
 All Versions: https://github.com/FluorescentGreen5/malicious-update-protector/releases
 
@@ -48,6 +51,8 @@ The program comes with the ability to schedules scans on 12AM, 6AM, 12PM and 6PM
 
 ## Windows 10 Privacy Advice
 
+**DISCLAIMER: I am NOT the provider of these torrents and downloads. I just found them online and verified their checksums.**
+
 - Windows 10 Enterpise ISOs
   - x86
     - Torrent: https://mega.nz/#!rk9mmKhZ!sPLDBHYqi7BpA-jNJF8Mr18vogFFj34UleVwDB45wSk
@@ -55,8 +60,15 @@ The program comes with the ability to schedules scans on 12AM, 6AM, 12PM and 6PM
   - x64
     - Torrent: https://mega.nz/#!ak1EAIIa!tspAwfGNMZamtR8WO793Rxy0hUNDpU3t4T7fMCJwHT4
 	- SHA256: D3D0F475330DCC376CD9D80F08A0E0270C6F1DE0E3EE39CF71925B5CFDCF96F9
+- Windows 10 LTSC ISOs
+  - x86
+    - Download: http://cdn.digiboy.ir/?b=dlir-s3&f=SW_DVD5_WIN_ENT_LTSC_2019_32-bit_English_MLF_X21-96424.ISO
+    - SHA256: Coming Soon
+  - x64
+    - Torrent: http://cdn.digiboy.ir/?b=dlir-s3&f=SW_DVD5_WIN_ENT_LTSC_2019_64-bit_English_MLF_X21-96425.ISO
+	- SHA256: Coming Soon
 
-If you plan on using Windows 10, you should use Enterprise. You could activate it using Microsoft Toolkit if you think Sayta Nadella doesn't deserve the thousands of dollars you have to pay just for privacy. Why Enterprise? Because as far as I know, there is no way you can guarantee that other editions of Windows 10 aren't collecting information. The rest of this paragraph may get off-topic. Here is some advice on what to configure during the setup from a former Microsoft employee: https://www.youtube.com/watch?v=u1kGMCfb2xw (when he gets to the point where he talks about Spybot Anti-Beacon, read the next paragraph).
+If you plan on using Windows 10, you should use LTSC or Enterprise (preferably LTSC due to it having less 'crap'). You could activate it using KMSpico if you think Sayta Nadella doesn't deserve the thousands of dollars you have to pay just for privacy. Why these 2 editions? Because as far as I know, there is no way you can guarantee that other editions of Windows 10 aren't collecting information. The rest of this paragraph may get off-topic. Here is some advice on what to configure during the setup from a former Microsoft employee: https://www.youtube.com/watch?v=u1kGMCfb2xw (when he gets to the point where he talks about Spybot Anti-Beacon, read the next paragraph).
 
 Once you are at the Windows 10 desktop, do the following:
 - Install the Malicious Update Protector.
@@ -103,15 +115,34 @@ The KBs that this program targets are shown in these 3 lists below:
   - 3150513
   - 3173040
 
+
 - List 2 (updates that were listed on http://www.getblackbird.net/blacklist/updates/ but not on list 1)
+  - 2876229
   - 2882822
   - 2922324
   - 3012973
   - 3014460
   - 3015249
+  - 3064683
+  - 3068707
+  - 3072318
+  - 3074677
   - 3075851
+  - 3080351
+  - 3081427
+  - 3081437
+  - 3081451
+  - 3081454
+  - 3090045
+  - 3095675
+  - 3124275
+  - 3134814
+  - 3140166
+  - 3140185
+  - 3146449
+  - 4493132
 
-- List 3 (updates that were listed on https://superuser.com/a/972506/350418 but not on list 1)
+- List 3 (updates that were listed on https://superuser.com/a/972506/350418 but not on list 1 or 2)
   - 2977759
   - 3046480
   - 3050267
