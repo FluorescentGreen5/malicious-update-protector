@@ -1,5 +1,3 @@
-**ATTENTION: MUP is in the middle of an update. V3 is currently not officially released. However, you can go ahead and install the repository files since those are for V3. The only thing that hasn't been fully updated is this entire description (README.md).**
-
 # Malicious Update Protector
 
 V3 by FluorescentGreen5.
@@ -20,9 +18,7 @@ If you would like to suggest any improvements to the code, here is my email addr
 
 ## Download
 
-Current Latest Version (V2): https://github.com/FluorescentGreen5/malicious-update-protector/releases/tag/V2
-Upcoming Version (V3): See Message at the Top
-
+Latest Version (V3): https://github.com/FluorescentGreen5/malicious-update-protector/releases/tag/V3
 All Versions: https://github.com/FluorescentGreen5/malicious-update-protector/releases
 
 ## Installation
@@ -52,24 +48,17 @@ The program comes with the ability to schedules scans on 12AM, 6AM, 12PM and 6PM
 
 ## Windows 10 Privacy Advice
 
-**DISCLAIMER: I am NOT the provider of these torrents and downloads. I just found them online and verified their checksums.**
+**DISCLAIMER: I am NOT the provider of these downloads. I just found them online and verified their checksums.**
 
-- Windows 10 Enterpise ISOs
-  - x86
-    - Torrent: https://mega.nz/#!rk9mmKhZ!sPLDBHYqi7BpA-jNJF8Mr18vogFFj34UleVwDB45wSk
-    - SHA256: CDC3CC3CDDA04673F91232D24FBD9AC6521E9309A73B12064F9061D7751825D9
-  - x64
-    - Torrent: https://mega.nz/#!ak1EAIIa!tspAwfGNMZamtR8WO793Rxy0hUNDpU3t4T7fMCJwHT4
-	- SHA256: D3D0F475330DCC376CD9D80F08A0E0270C6F1DE0E3EE39CF71925B5CFDCF96F9
 - Windows 10 LTSC ISOs
   - x86
     - Download: http://cdn.digiboy.ir/?b=dlir-s3&f=SW_DVD5_WIN_ENT_LTSC_2019_32-bit_English_MLF_X21-96424.ISO
-    - SHA256: Coming Soon
+    - SHA256: 044263A3BA067F0967D311782916088BDB723CCC4E15E87FF4B2973E037E593E
   - x64
     - Torrent: http://cdn.digiboy.ir/?b=dlir-s3&f=SW_DVD5_WIN_ENT_LTSC_2019_64-bit_English_MLF_X21-96425.ISO
-	- SHA256: Coming Soon
+	- SHA256: ED90058BE09D77460D97E690B12D886DEBA5092628DD1F838C7FCDDF28EFA2AC
 
-If you plan on using Windows 10, you should use LTSC or Enterprise (preferably LTSC due to it having less 'crap'). You could activate it using KMSpico if you think Sayta Nadella doesn't deserve the thousands of dollars you have to pay just for privacy. Why these 2 editions? Because as far as I know, there is no way you can guarantee that other editions of Windows 10 aren't collecting information. The rest of this paragraph may get off-topic. Here is some advice on what to configure during the setup from a former Microsoft employee: https://www.youtube.com/watch?v=u1kGMCfb2xw (when he gets to the point where he talks about Spybot Anti-Beacon, read the next paragraph).
+If you plan on using Windows 10, you should use LTSC. You could activate it using KMSpico if you think Sayta Nadella doesn't deserve the thousands of dollars you have to pay just for privacy. Why LTSC? Because as far as I know, there is no way you can guarantee that other editions of Windows 10 aren't collecting information. The rest of this paragraph may get off-topic. Here is some advice on what to configure during the setup from a former Microsoft employee: https://www.youtube.com/watch?v=u1kGMCfb2xw (when he gets to the point where he talks about Spybot Anti-Beacon, read the next paragraph).
 
 Once you are at the Windows 10 desktop, do the following:
 - Install the Malicious Update Protector.
@@ -115,7 +104,6 @@ The KBs that this program targets are shown in these 3 lists below:
   - 3139929
   - 3150513
   - 3173040
-
 
 - List 2 (updates that were listed on http://www.getblackbird.net/blacklist/updates/ but not on list 1)
   - 2876229
